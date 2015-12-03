@@ -1,9 +1,9 @@
 .bg-header{
     background-color: #fff;
-    background-color:#C7F7FF;
+    background-color:$lightblue;
     color: #222;
-    border-bottom:1rem solid #89C0C9;
-    border-top:1rem solid #3a5E63;
+    border-bottom:1rem solid $medblue;
+    border-top:1rem solid $darkblue;
     position: relative;
 
     &:before,
@@ -13,7 +13,7 @@
         bottom:-1rem;
         width:30%;
         height:1rem;
-        background-color: #3a5E63;
+        background-color: $darkblue;
     }
         &:before{
         left:0;
@@ -46,7 +46,7 @@
             color: #222;    
             font-size: 1.414rem;
             letter-spacing: 0.25rem;
-            border:1px solid #d4d4d4; 
+            border:1px solid $lightgrey; 
             border-bottom: none;
             padding:1.0rem 2rem;
             line-height: 1;
@@ -54,10 +54,10 @@
         }
         nav>ul>li>a:hover{
             font-weight: 700;
-            color:#7C593C;
+            color:$darkbrown;
         }
         h1{
-            color: #7C593C;
+            color: $darkbrown;
             letter-spacing: 0.1rem;
         }
         h1 i.fa-lg{
@@ -66,7 +66,7 @@
             float:left;
             font-size: 7rem;
             line-height: 12.7936rem;
-            color: #C9A689;
+            color: $lightbrown;
         }
         h1 i.fa-lg ~ span{
             float: right;
